@@ -15,9 +15,7 @@ export class LineChartComponent implements OnInit {
   single: any[];
   multi: any[];
 
-  view: any[];
-
-  // options
+   // options
   showXAxis = true;
   showYAxis = true;
   gradient = false;
