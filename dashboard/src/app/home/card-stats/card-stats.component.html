@@ -1,5 +1,13 @@
-<ngx-charts-number-card 
-  [scheme]="colorScheme" 
-  [results]="single" 
-  (select)="onSelect($event)">
-</ngx-charts-number-card>
+<div class=card-stats 
+  fxLayout='column'
+  fxFlex="50%">
+  <mat-card>
+    <mat-card-title>Stat Cards</mat-card-title>
+    <ngx-charts-number-card 
+      [view]="view"
+      [scheme]="colorScheme" 
+      [results]="single" 
+      (select)="onSelect($event)">
+    </ngx-charts-number-card>
+  </mat-card>
+</div>
